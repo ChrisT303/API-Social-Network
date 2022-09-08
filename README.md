@@ -15,12 +15,12 @@ This application is an API for a social media platform. A user can sign up with 
   - [Questions](#questions)
 ## Installation
 You will need to first install MongoDb. From there the dependencies you need are express.js, and mongoose.
-`npm init -y`
-`npm i`
-`npm i express`
-`npm i mongoose`
+*`npm init -y`
+*`npm i`
+*`npm i express`
+*`npm i mongoose`
 ## Usage
-npm run start
+*`npm run start`
 ## Contributors
 N/a
 ## Tests
