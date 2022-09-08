@@ -53,7 +53,7 @@ module.exports = {
           ? res.status(404).json({ message: "No thought found with this ID" })
           : res.json({ message: "Thought successfully deleted" })
       )
-      .catch((err) => res.status(500)(err));
+      .catch((err) => res.status(500).json(err));
   },
   createReaction(req, res) {
     Thought.findOneAndUpdate(
