@@ -11,6 +11,7 @@ This application is an API for a social media platform. A user can sign up with 
   - [Usage](#usage)
   - [Contributors](#contributors)
   - [Tests](#tests)
+  - [License](#license)
   - [Questions](#questions)
 ## Installation
 You will need to first install MongoDb. From there the dependencies you need are express.js, and mongoose. 
@@ -20,7 +21,7 @@ npm run start
 N/a
 ## Tests
 Routing tests are done in Insomnia
-##License
+## License
 #####This project is licensed under
 The MIT License
 ## Questions
